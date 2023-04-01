@@ -1,0 +1,14 @@
+{
+    "pelicula":[
+     { 
+      "Titulo":"La vida es bella",
+      "Director":"Roberto Benigni",
+      "fecha":"12-12-1978"
+    },
+     { 
+      "Titulo":"Jurassic park",
+      "Director":"Steven Spielberg",
+      "fecha":"12-12-1998"
+    }
+    ]
+}

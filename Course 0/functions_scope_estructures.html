@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope,Funciones,Estructures</title>
+</head>
+<body>
+    <script>
+            let greeting='Who are you?';
+            alert('The variable greeting it is global: '+ greeting);
+
+            function greet(){
+                    name = "Eduard";
+                    alert ("It is a variable local. Hello!: "+name);
+            }
+            greet();
+                alert ('The Second type it is global'+greeting);
+
+            function estructures(){
+                let i = prompt('Into a number');
+                if (i===0){
+                    alert('I am zero');
+                }
+                else if(i===1){
+                    alert ('I am 1');
+                }
+                else{
+                    alert( `the number is ${i}` )
+                }
+            }
+            estructures();
+
+            let option=prompt('Into a table,house or another word');
+            switch (option){
+                case "table": alert('This is: '+option);
+                    break;
+                case 'house': alert ('This is: '+option );
+                    break;
+                default: alert ('This is not true');
+                    break;
+            }
+    </script>
+</body>
+</html>
