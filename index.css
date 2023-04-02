@@ -1,0 +1,70 @@
+pre#output {
+  height: 20rem;
+  background-color: lightgray;
+  overflow-y: scroll;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: .3rem .4rem;
+  margin: 0;
+}
+span.byte {
+  font-size: 12pt;
+  font-family: monospace;
+  display: inline-block;
+  padding: .1rem .2rem .1rem .2rem;
+  border: 1px solid black;
+  background-color: rgb(215, 236, 255);
+  margin-right: 3px;
+}
+span.byte.curr {
+  outline: 3px solid black;
+}
+div.row {
+  display: flex;
+  flex-direction: row;
+}
+#output {
+  flex: 1;
+}
+#stack {
+  width: 5rem;
+  padding: .2rem;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  border: 2px solid black;
+  border-top: none;
+  margin-right: .5rem;
+  
+}
+.value {
+  border: 1px solid black;
+  margin-bottom: .2rem;
+  text-align: center;
+
+  background-color: white;
+}
+.code {
+  margin-bottom: 1rem;
+}
+.editor-area {
+  display: flex;
+  flex-direction: column;
+  margin-right: .5rem;
+}
+#editor {
+  flex: 1;
+  font-size: 11pt;
+}
+
+.taula{
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border: 4px solid black;
+}
+
+.div1{
+  font-family: monospace;
+  font-size: 12pt;
+  margin-left: 2rem;
+
+}

@@ -45,7 +45,7 @@ class Persona{
   }
 }
 
-let persona = new Persona("edu","romo","eromo@xtec.cat","645231276");
+let persona = new Persona("Maria","Ramirez  Calatayud","mariaramirezcata@gmail.com","645-231-276");
 
 //console.log(persona);
 //console.log(persona.personNom);
