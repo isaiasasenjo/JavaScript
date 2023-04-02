@@ -57,7 +57,7 @@ columna2.innerHTML =  persona._cognoms;
 columna3.innerHTML =  persona._email;
 columna4.innerHTML =  persona._tef;
 
-mensaje1.innerHTML = "Soc el : "+persona.personNom;
-mensaje2.innerHTML = "Soc un estudiant de la Blockchain";
+mensaje1.innerHTML = "Soy: "+persona.personNom;
+mensaje2.innerHTML = "Entusiasta de la Blockchain";
 },true
 )
